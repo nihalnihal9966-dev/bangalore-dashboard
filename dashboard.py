@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 # Load data
-df = pd.read_csv("output/final_30plus_metrics_database.csv")
+df = pd.read_csv("final_30plus_metrics_database.csv")
 
 # Title
 st.title("🏙 Bangalore Urban Form Dashboard")
